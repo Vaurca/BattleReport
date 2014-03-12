@@ -7,13 +7,13 @@ import com.google.common.collect.ImmutableMap;
 
 public class ChampReference {
 
-  private static final String NOXUS = "Noxus";
+  private static final String NOXUS = "Noxus!";
 
-  private static final String DEMACIA = "Demacia";
+  private static final String DEMACIA = "Demacia!";
 
-  private static final String BALANCE = "Balance";
+  private static final String BALANCE = "Balance!";
 
-  private static final String CHAOS = "Chaos";
+  private static final String CHAOS = "Chaos!";
 
   private static final Map<Integer, String> CHAMP_MAP = new ImmutableMap.Builder<Integer, String>()
       .put(266, "Aatrox")
@@ -263,11 +263,24 @@ public class ChampReference {
    * @return the name of the champion based on id
    */
   protected static String getChampById(final int id) {
-    String champName = null;
+    String champName = "error!";
     if (CHAMP_MAP.get(id) != null) {
       champName = CHAMP_MAP.get(id);
     }
     return champName;
+  }
+
+  /**
+   * Returns the corresponding faction for a champion
+   * @param champion - the champion for whom to check faction
+   * @return faction of the champion
+   */
+  protected static String getFaction(final String champion) {
+    String faction = "error!";
+    if (FACTION_MAP.get(champion) != null) {
+      faction = FACTION_MAP.get(champion);
+    }
+    return faction;
   }
 
 }
