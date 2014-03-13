@@ -1,9 +1,5 @@
 package core;
 
-import java.io.BufferedWriter;
-import java.io.FileWriter;
-import java.io.IOException;
-import java.io.PrintWriter;
 import java.math.BigDecimal;
 import java.math.RoundingMode;
 
@@ -12,7 +8,7 @@ import jriot.objects.Game;
 import jriot.objects.RawStats;
 
 
-public class AchievementProcessor {
+public class AchievementProcessor extends Processor {
 
   private static final String DIVIDER = "---------------------------------------------------";
   private final JRiot lol;
@@ -25,7 +21,8 @@ public class AchievementProcessor {
     this.game = game;
   }
 
-  public double processFlavourStats() {
+  @Override
+  public BigDecimal process() {
     // Grab the stats
     final RawStats stats = game.getStats();
 
@@ -44,13 +41,14 @@ public class AchievementProcessor {
     final double cool = stats.getTrueDamageDealtToChampions() == 1337 ? 1337 : 0;
 
     // Messy...but method for combining if statements + grabbing the value and then inserting into a variable maybe later
-    final double totalScore = shoppingSpree + doubleKills + tripleKills + quadraKills + pentaKills + unrealKills + firstBlood +
+    double totalScore = doubleKills + tripleKills + quadraKills + pentaKills + unrealKills + firstBlood +
         killingSprees + tonOfDamage + unluckyThirteen + fourTwenty + cool;
 
     // Print them out - since we have their values previously we can just check if a value exists and use it if it does
     printOut("****      Achievement Score      ****");
 
-    if (shoppingSpree < stats.getGoldSpent()) {
+    if (shoppingSpree < stats.getGoldSpent() / 100) {
+      totalScore += shoppingSpree;
       printOut("LET'S GO SHOPPPINGGGGGG! :              "+shoppingSpree);
     }
     if (firstBlood > 0) {
@@ -86,32 +84,8 @@ public class AchievementProcessor {
     if (cool > 0) {
       printOut("Truly Cool:                             "+cool);
     }
-
+    printOut("Achievement Score =                     "+val(totalScore).setScale(2, RoundingMode.HALF_EVEN).doubleValue());
     printOut(DIVIDER);
-    return totalScore;
-  }
-  /**
-   * Just a method to print stuff to the file
-   * @param msg Message to print
-   */
-  private void printOut(final String msg) {
-    try {
-      final PrintWriter out =
-          new PrintWriter(new BufferedWriter(new FileWriter(System.getProperty("user.dir")+"\\"+fileName, true)));
-      out.println(msg);
-      out.close();
-    }
-    catch (final IOException e) {
-      e.printStackTrace();
-    }
-  }
-
-  /**
-   * Simple helper method just to easy readability/coding
-   * @param value of double
-   * @return BigDecimal representation of the double
-   */
-  private BigDecimal val (final double value) {
-    return BigDecimal.valueOf(value);
+    return val(totalScore);
   }
 }
