@@ -1,0 +1,206 @@
+Battle Report - Bananagram (Summoner ID - 21324628)
+Generated at: Wed Mar 12 17:07:35 PDT 2014
+---------------------------------------------------
+You played Morgana on Summoner's Rift, fighting for Chaos!
+Your comrades were: Maokai, Caitlyn, Ahri, Riven.
+Your enemies were: Taric, Velkoz, Kayle, Elise, Jinx.
+
+****      Game Stat Score      ****
+Kill/Death/Assist Ratio Multiplier:    0.14
+Damage Bonus:                          80.84
+Gold Per Minute:                       274.20
+Crowd Control Time Multiplier:         1.32
+Structure Kills:                       0.00
+Warding/Counterwarding:                1040.00
+Medic Bonus:                           0.60
+Map Bonus:                             1000.0
+Game Stat Score:                       5893
+****      Achievement Score      ****
+LET'S GO SHOPPPINGGGGGG! :              93.97
+---------------------------------------------------
+---------------------------------------------------
+You played Morgana on Summoner's Rift, fighting for Chaos!
+Your comrades were: Ahri, Irelia, Vayne, Skarner.
+Your enemies were: Syndra, Jayce, Velkoz, MasterYi, Pantheon.
+
+****      Game Stat Score      ****
+Kill/Death/Assist Ratio Multiplier:    0.28
+Damage Bonus:                          124.42
+Gold Per Minute:                       295.86
+Crowd Control Time Multiplier:         0.54
+Structure Kills:                       0.00
+Warding/Counterwarding:                680.00
+Medic Bonus:                           0.60
+Map Bonus:                             1000.0
+Victory! :                             10% bonus!
+Game Stat Score:                       4206
+****      Achievement Score      ****
+LET'S GO SHOPPPINGGGGGG! :              92.16
+---------------------------------------------------
+---------------------------------------------------
+You played Amumu on Summoner's Rift, fighting for Balance!
+Your comrades were: Janna, Akali, Zed, Graves.
+Your enemies were: Vayne, Lucian, Soraka, Zed, Shaco.
+
+****      Game Stat Score      ****
+Kill/Death/Assist Ratio Multiplier:    0.46
+Damage Bonus:                          1253.89
+Gold Per Minute:                       376.62
+Crowd Control Time Multiplier:         1.56
+Structure Kills:                       100.00
+Warding/Counterwarding:                240.00
+Medic Bonus:                           50.92
+Map Bonus:                             1000.0
+Victory! :                             10% bonus!
+Game Stat Score:                       10038
+****      Achievement Score      ****
+LET'S GO SHOPPPINGGGGGG! :              119.38
+Killing Sprees:                         100.0
+---------------------------------------------------
+---------------------------------------------------
+You played Nocturne on Summoner's Rift, fighting for Chaos!
+Your comrades were: Morgana, Brand, Riven, Ezreal.
+Your enemies were: LeeSin, Lucian, Blitzcrank, Velkoz, Shyvana.
+
+****      Game Stat Score      ****
+Kill/Death/Assist Ratio Multiplier:    0.31
+Damage Bonus:                          1123.79
+Gold Per Minute:                       430.98
+Crowd Control Time Multiplier:         1.02
+Structure Kills:                       300.00
+Warding/Counterwarding:                40.00
+Medic Bonus:                           67.78
+Map Bonus:                             1000.0
+Victory! :                             10% bonus!
+Game Stat Score:                       7593
+****      Achievement Score      ****
+LET'S GO SHOPPPINGGGGGG! :              127.28
+Double Trouble:                         100.0
+Killing Sprees:                         100.0
+---------------------------------------------------
+---------------------------------------------------
+You played MonkeyKing on Summoner's Rift, fighting for Balance!
+Your comrades were: Alistar, Syndra, Vayne, Poppy.
+Your enemies were: Leblanc, Vayne, Renekton, Rengar, MasterYi.
+
+****      Game Stat Score      ****
+Kill/Death/Assist Ratio Multiplier:    0.25
+Damage Bonus:                          942.77
+Gold Per Minute:                       397.44
+Crowd Control Time Multiplier:         1.38
+Structure Kills:                       600.00
+Warding/Counterwarding:                240.00
+Medic Bonus:                           32.99
+Map Bonus:                             1000.0
+Victory! :                             10% bonus!
+Game Stat Score:                       9296
+****      Achievement Score      ****
+LET'S GO SHOPPPINGGGGGG! :              98.69
+Double Trouble:                         50.0
+Killing Sprees:                         50.0
+---------------------------------------------------
+---------------------------------------------------
+You played Nidalee on Summoner's Rift, fighting for Balance!
+Your comrades were: Janna, Caitlyn, Vi, Riven.
+Your enemies were: Evelynn, Orianna, Vladimir, Sona, Lucian.
+
+****      Game Stat Score      ****
+Kill/Death/Assist Ratio Multiplier:    0.09
+Damage Bonus:                          382.09
+Gold Per Minute:                       247.02
+Crowd Control Time Multiplier:         0.00
+Structure Kills:                       0.00
+Warding/Counterwarding:                80.00
+Medic Bonus:                           264.16
+Map Bonus:                             1000.0
+Game Stat Score:                       2151
+****      Achievement Score      ****
+LET'S GO SHOPPPINGGGGGG! :              60.48
+---------------------------------------------------
+---------------------------------------------------
+You played Nidalee on Summoner's Rift, fighting for Balance!
+Your comrades were: Ezreal, Morgana, Sejuani, Ryze.
+Your enemies were: Caitlyn, Morgana, Soraka, LeeSin, Ashe.
+
+****      Game Stat Score      ****
+Kill/Death/Assist Ratio Multiplier:    0.40
+Damage Bonus:                          875.67
+Gold Per Minute:                       349.86
+Crowd Control Time Multiplier:         0.00
+Structure Kills:                       100.00
+Warding/Counterwarding:                400.00
+Medic Bonus:                           830.40
+Map Bonus:                             1000.0
+Victory! :                             10% bonus!
+Game Stat Score:                       5476
+****      Achievement Score      ****
+LET'S GO SHOPPPINGGGGGG! :              131.91
+Killing Sprees:                         100.0
+---------------------------------------------------
+---------------------------------------------------
+You played Gragas on The Howling Abyss, fighting for Chaos!
+Your comrades were: Syndra, Katarina, Jinx, Diana.
+Your enemies were: TwistedFate, Quinn, XinZhao, Jax, Malphite.
+
+****      Game Stat Score      ****
+Kill/Death/Assist Ratio Multiplier:    0.74
+Damage Bonus:                          486.01
+Gold Per Minute:                       521.22
+Crowd Control Time Multiplier:         2.22
+Structure Kills:                       0.00
+Warding/Counterwarding:                0.00
+Medic Bonus:                           17.68
+Map Bonus:                             200.0
+Victory! :                             10% bonus!
+Game Stat Score:                       5336
+****      Achievement Score      ****
+LET'S GO SHOPPPINGGGGGG! :              118.86
+Killing Sprees:                         50.0
+---------------------------------------------------
+---------------------------------------------------
+You played Pantheon on The Howling Abyss, fighting for Chaos!
+Your comrades were: Nunu, Blitzcrank, Irelia, Galio.
+Your enemies were: KogMaw, Sivir, Xerath, Graves, Brand.
+
+****      Game Stat Score      ****
+Kill/Death/Assist Ratio Multiplier:    0.27
+Damage Bonus:                          591.50
+Gold Per Minute:                       545.58
+Crowd Control Time Multiplier:         0.24
+Structure Kills:                       200.00
+Warding/Counterwarding:                0.00
+Medic Bonus:                           27.55
+Map Bonus:                             200.0
+Victory! :                             10% bonus!
+Game Stat Score:                       2599
+****      Achievement Score      ****
+LET'S GO SHOPPPINGGGGGG! :              155.2
+Double Trouble:                         100.0
+3-pointer! :                            100.0
+Killing Sprees:                         200.0
+---------------------------------------------------
+---------------------------------------------------
+You played Diana on The Howling Abyss, fighting for Chaos!
+Your comrades were: Veigar, Morgana, Vi, Rammus.
+Your enemies were: Orianna, Thresh, Zilean, LeeSin, Rumble.
+
+****      Game Stat Score      ****
+Kill/Death/Assist Ratio Multiplier:    0.23
+Damage Bonus:                          667.32
+Gold Per Minute:                       507.30
+Crowd Control Time Multiplier:         0.48
+Structure Kills:                       100.00
+Warding/Counterwarding:                0.00
+Medic Bonus:                           14.22
+Map Bonus:                             200.0
+Victory! :                             10% bonus!
+Game Stat Score:                       2801
+****      Achievement Score      ****
+LET'S GO SHOPPPINGGGGGG! :              136.19
+Double Trouble:                         50.0
+Killing Sprees:                         100.0
+Unlucky Thirteen:                       130.0
+---------------------------------------------------
+---------------------------------------------------
+
+Your total score is: 57753 for Chaos!

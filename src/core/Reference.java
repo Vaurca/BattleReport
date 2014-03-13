@@ -1,11 +1,12 @@
 package core;
 
+import java.util.ArrayList;
 import java.util.Map;
 
 import com.google.common.collect.ImmutableMap;
 
 
-public class ChampReference {
+public class Reference {
 
   private static final String NOXUS = "Noxus!";
 
@@ -258,16 +259,37 @@ public class ChampReference {
       .build();
 
   /**
+   * yo dawg i herd u liek mapz
+   */
+  private static final Map<Integer, ArrayList<String>> MAP_MAP = new ImmutableMap.Builder<Integer, ArrayList<String>>()
+      .put(1, createList("Summoner's Rift", "1000"))
+      .put(2, createList("Summoner's Rift", "1000"))
+      .put(3, createList("The Proving Grounds", "100"))
+      .put(8, createList("The Crystal Scar", "500"))
+      .put(10, createList("Twisted Treeline", "500"))
+      .put(12, createList("The Howling Abyss", "200"))
+      .build();
+
+  /**
+   * Helper method to make arrayLists for the map-map.
+   * @param map Name of the map
+   * @param value Value of the map
+   * @return ArrayList with two objects in it.
+   */
+  private static ArrayList<String> createList(final String map, final String value) {
+    final ArrayList<String> list = new ArrayList<String>();
+    list.add(map);
+    list.add(value);
+    return list;
+  }
+
+  /**
    * Returns the name of a champion corresponding to a given id
    * @param id - id of the champion
    * @return the name of the champion based on id
    */
   protected static String getChampById(final int id) {
-    String champName = "error!";
-    if (CHAMP_MAP.get(id) != null) {
-      champName = CHAMP_MAP.get(id);
-    }
-    return champName;
+    return CHAMP_MAP.containsKey(id) ? CHAMP_MAP.get(id) : "error!";
   }
 
   /**
@@ -276,11 +298,16 @@ public class ChampReference {
    * @return faction of the champion
    */
   protected static String getFaction(final String champion) {
-    String faction = "error!";
-    if (FACTION_MAP.get(champion) != null) {
-      faction = FACTION_MAP.get(champion);
-    }
-    return faction;
+    return FACTION_MAP.containsKey(champion) ? FACTION_MAP.get(champion) : "error!";
+  }
+
+  /**
+   * Returns the map info given a mapId
+   * @param mapId - id of the map
+   * @return ArrayList with the map info
+   */
+  protected static ArrayList<String> getMapInfo(final int mapId) {
+    return MAP_MAP.containsKey(mapId) ? MAP_MAP.get(mapId) : null;
   }
 
 }
