@@ -11,7 +11,9 @@ import java.math.BigDecimal;
 import java.math.RoundingMode;
 import java.util.ArrayList;
 import java.util.Calendar;
+import java.util.HashMap;
 import java.util.Iterator;
+import java.util.Map;
 
 import jriot.main.JRiot;
 import jriot.objects.Game;
@@ -27,8 +29,12 @@ public class BattleReporter {
   private JRiot lol;
   private String summonerName;
   private String fileName;
-  // this is outdated
-  private String playerChampion;
+  private static final String CHAOS = "Chaos";
+  private static final String BALANCE = "Balance";
+  private static final String DEMACIA = "Demacia";
+  private static final String NOXUS = "Noxus";
+
+  private final Map<String, Integer> SCORE_MAP = new HashMap<String, Integer>();
 
   public BattleReporter() {
     super();
@@ -49,10 +55,8 @@ public class BattleReporter {
 
   /**
    * Creates the report itself
-   * @param summonerName - name of the summoner
    */
-  protected void createReport() {
-    double finalScore = 0;
+  protected String createReport() {
     final long id = lol.getSummoner(summonerName).getId();
 
     // Get the games first
@@ -60,20 +64,41 @@ public class BattleReporter {
 
     // Process the games one by one
     final Iterator<Game> itr = games.iterator();
+    Game game = new Game();
+
     while (itr.hasNext()) {
-      finalScore += processGame(itr.next());
+      game = itr.next();
+
+      // Get the faction of the champion being played so we know where to put those points
+      final String faction = Reference.getFaction(Reference.getChampById(game.getChampionId()));
+
+      // Process the actual game
+      final double gameScore = processGame(game);
+
+      // Add the score from that game to the faction
+      SCORE_MAP.put(faction, (int) (SCORE_MAP.get(faction) + gameScore));
+
       printOut(DIVIDER);
     }
 
     printOut("");
-    // not going to be using playerchamp in the future, going ot split it into 4 values, and check per game
-    printOut("Your total score is: " + val(finalScore).setScale(0, RoundingMode.HALF_EVEN) + " for " + Reference.getFaction(playerChampion));
+
+    // Show the final scores for each faction
+    final int totalScore = getTotalScore(SCORE_MAP);
+    printOut("Your total scores are - ");
+    for (final String faction : SCORE_MAP.keySet()) {
+      printOut(faction + ": " + SCORE_MAP.get(faction) + " (" + getPct(SCORE_MAP.get(faction), totalScore) + "%)");
+    }
+    printOut("Overall score: " + totalScore);
+
+    return System.getProperty("user.dir")+"\\"+fileName;
 
   }
 
   /**
    * Processes the stats from a specific game
    * @param game - the game to look at
+   * @return - double of the score of the game
    */
   private double processGame(final Game game) {
     // Process the basic game stats first
@@ -84,7 +109,7 @@ public class BattleReporter {
 
   /**
    * This handles the basic stats of a game.
-   * @param game
+   * @param game - The game to process
    * @return the total score from this section
    */
   private BigDecimal processGenericStats(final Game game) {
@@ -105,10 +130,16 @@ public class BattleReporter {
   }
 
   /**
-   * Creates the file to be used for the BattleReport
+   * Creates the file to be used for the BattleReport, also going to populate the score map
    * @param summonerName - the summonerName being queried
    */
   private void prepareFile(final String summonerName) {
+
+    SCORE_MAP.put(CHAOS, 0);
+    SCORE_MAP.put(BALANCE, 0);
+    SCORE_MAP.put(NOXUS, 0);
+    SCORE_MAP.put(DEMACIA, 0);
+
     final Calendar now = Calendar.getInstance();
     fileName = "Battle Report - " + summonerName + " - " + now.get(Calendar.DAY_OF_MONTH)+" "+now.get(Calendar.MONTH)+" "+now.get(Calendar.YEAR)+".txt";
     Writer writer = null;
@@ -143,14 +174,13 @@ public class BattleReporter {
    * @param region - region the summoner's in
    */
   private void configJRiot(final String apiKey, final String region) {
-    System.out.println("apikey: "+apiKey+", reg: "+region);
     lol.setApiKey(apiKey);
     lol.setRegion(region);
   }
 
   /**
    * Gets recently played games from summoner based on the id
-   * @param id of summoner
+   * @param id - id of summoner
    * @return ArrayList of the games
    */
   private ArrayList<Game> getGames(final long id) {
@@ -159,7 +189,7 @@ public class BattleReporter {
 
   /**
    * Just a method to print stuff to the file
-   * @param msg Message to print
+   * @param msg - Message to print
    */
   private void printOut(final String msg) {
     try {
@@ -175,11 +205,34 @@ public class BattleReporter {
 
   /**
    * Simple helper method just to easy readability/coding
-   * @param value of double
+   * @param value - value of double
    * @return BigDecimal representation of the double
    */
   private BigDecimal val (final double value) {
     return BigDecimal.valueOf(value);
+  }
+
+  /**
+   * Grabs the total value of all scores so we can use it for % calculation
+   * @param map - The score Map
+   * @return The total value of all scores
+   */
+  private int getTotalScore(final Map<String, Integer> map) {
+    int total = 0;
+    for (final String faction : map.keySet()) {
+      total += map.get(faction);
+    }
+    return total;
+  }
+
+  /**
+   * Gets the percentage to 1 decimal place of the scores
+   * @param score - score of the specific faction
+   * @param total - total score of all factions
+   * @return the % score of the specified faction
+   */
+  private BigDecimal getPct(final double score, final int total) {
+    return val((score/total)*100).setScale(1, RoundingMode.HALF_EVEN);
   }
 
 }

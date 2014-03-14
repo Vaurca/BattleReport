@@ -27,7 +27,6 @@ public class BasicProcessor extends Processor {
 
   /**
    * This handles the basic stats of a game.
-   * @param game
    * @return the total score from this section
    */
   @Override

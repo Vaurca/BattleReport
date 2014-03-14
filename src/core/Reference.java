@@ -8,13 +8,13 @@ import com.google.common.collect.ImmutableMap;
 
 public class Reference {
 
-  private static final String NOXUS = "Noxus!";
+  private static final String NOXUS = "Noxus";
 
-  private static final String DEMACIA = "Demacia!";
+  private static final String DEMACIA = "Demacia";
 
-  private static final String BALANCE = "Balance!";
+  private static final String BALANCE = "Balance";
 
-  private static final String CHAOS = "Chaos!";
+  private static final String CHAOS = "Chaos";
 
   private static final Map<Integer, String> CHAMP_MAP = new ImmutableMap.Builder<Integer, String>()
       .put(266, "Aatrox")
