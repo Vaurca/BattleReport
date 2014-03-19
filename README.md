@@ -11,11 +11,13 @@ iv.		Weaknesses
 v.		How this could move quick to Awesome
 
 i.		What is it?
+
 Battle Report is a simple program using the JRiot library (https://github.com/t-sauer/jriot) to pull recent 
 game results using the Riot API. It performs a few calculations to have some fun with numbers, and display 
 them in a more entertaining fashion.
 
 ii.		The Challenge
+
 It seems to me that most design challenges would revolve around creating new champions; while I've got a few 
 cool ideas I could flesh out, I thought I would focus on something a little less explored. Statistics are 
 useful pieces of information from a mechanical standpoint, as they give insight onto how skilled a player is, 
@@ -29,6 +31,7 @@ be used to just query it, and that there was an interest in doing something with
 as a bonus, this project only requires the base Riot API to do fun things.
 
 iii.	Mapping a solution 
+
 I had a few basic thoughts that I put together - 
 
 1 - At the core of almost any game is a comparison between two numbers. Comparing numbers competitively with 
@@ -58,6 +61,7 @@ season. It also lets unranked or more casual players have more goals to work for
 have to participate.
 
 iv. 	Weaknesses
+
 While achievements and fun stats can be enjoyable, there's the potential for people to abuse the systems just
 to make themselves look better, or to grab a difficult achievement. For example, if the ward score is something
 that they want to really inflate, they could spam wards in fountain uselessly, or if they want pentakills they
@@ -75,3 +79,4 @@ that back and in impromptu fashion, and promote healthy in-game rivalries simila
 or the Frozen Crown (that's what it's called, right? Between Ashe, Sej, Liss?)
 
 v. 	How this could move quick to Awesome
+
