@@ -5,7 +5,10 @@ import java.util.Map;
 
 import com.google.common.collect.ImmutableMap;
 
-
+/**
+ * General utility and reference things, plus the methods to call them.
+ * @author Justin Chan
+ */
 public class Reference {
 
   private static final String NOXUS = "Noxus";

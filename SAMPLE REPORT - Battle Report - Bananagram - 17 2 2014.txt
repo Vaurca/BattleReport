@@ -1,0 +1,222 @@
+Battle Report - bananagram (Summoner ID - 21324628)
+Generated at: Mon Mar 17 10:39:19 PDT 2014
+---------------------------------------------------
+You played Katarina on The Howling Abyss, fighting for Noxus
+Your comrades were: Ashe, Thresh, Heimerdinger, Soraka.
+Your enemies were: DrMundo, Rumble, Teemo, Twitch, Sona.
+
+****      Game Stat Score      ****
+Kill/Death/Assist Ratio Multiplier:    0.37
+Damage Bonus:                          1016.18
+Gold Per Minute:                       569.34
+Crowd Control Time Multiplier:         0.18
+Structure Kills:                       0.00
+Warding/Counterwarding:                0.00
+Medic Bonus:                           28.30
+Map Bonus:                             200.0
+Game Stat Score =                      2811
+****      Achievement Score      ****
+LET'S GO SHOPPPINGGGGGG! :             170.03
+Double Trouble:                        400.0
+3-pointer! :                           300.0
+Four-rocious:                          900.0
+Five Finger Death Punch:               1000.0
+Killing Sprees:                        350.0
+Achievement Score =                    3120.03
+---------------------------------------------------
+Game SCore:                            5931.03
+---------------------------------------------------
+You played Gragas on The Howling Abyss, fighting for Chaos
+Your comrades were: Soraka, Blitzcrank, Karma, Khazix.
+Your enemies were: Nasus, Cassiopeia, Ezreal, Caitlyn, Lulu.
+
+****      Game Stat Score      ****
+Kill/Death/Assist Ratio Multiplier:    0.47
+Damage Bonus:                          916.60
+Gold Per Minute:                       513.96
+Crowd Control Time Multiplier:         2.34
+Structure Kills:                       0.00
+Warding/Counterwarding:                0.00
+Medic Bonus:                           16.78
+Map Bonus:                             200.0
+Game Stat Score =                      6276
+****      Achievement Score      ****
+Double Trouble:                        150.0
+Killing Sprees:                        150.0
+Achievement Score =                    300.0
+---------------------------------------------------
+Game SCore:                            6576.0
+---------------------------------------------------
+You played Shyvana on The Howling Abyss, fighting for Demacia
+Your comrades were: Teemo, Ezreal, Jax, LeeSin.
+Your enemies were: Malzahar, KogMaw, Gangplank, Alistar, Galio.
+
+****      Game Stat Score      ****
+Kill/Death/Assist Ratio Multiplier:    0.19
+Damage Bonus:                          321.57
+Gold Per Minute:                       454.68
+Crowd Control Time Multiplier:         1.98
+Structure Kills:                       100.00
+Warding/Counterwarding:                0.00
+Medic Bonus:                           50.24
+Map Bonus:                             200.0
+Game Stat Score =                      3571
+****      Achievement Score      ****
+Achievement Score =                    0.0
+---------------------------------------------------
+Game SCore:                            3571.0
+---------------------------------------------------
+You played Heimerdinger on The Howling Abyss, fighting for Balance
+Your comrades were: Udyr, Teemo, KogMaw, Zed.
+Your enemies were: Jayce, Ziggs, Karthus, MasterYi, Caitlyn.
+
+****      Game Stat Score      ****
+Kill/Death/Assist Ratio Multiplier:    0.32
+Damage Bonus:                          412.83
+Gold Per Minute:                       429.66
+Crowd Control Time Multiplier:         0.42
+Structure Kills:                       200.00
+Warding/Counterwarding:                0.00
+Medic Bonus:                           22.65
+Map Bonus:                             200.0
+Victory! :                             10% bonus!
+Game Stat Score =                      2421
+****      Achievement Score      ****
+Achievement Score =                    0.0
+---------------------------------------------------
+Game SCore:                            2421.0
+---------------------------------------------------
+You played Graves on Summoner's Rift, fighting for Chaos
+Your comrades were: Katarina, Fiora, Annie, MonkeyKing.
+Your enemies were: Lulu, Khazix, Shen, Vayne, Velkoz.
+
+****      Game Stat Score      ****
+Kill/Death/Assist Ratio Multiplier:    0.27
+Damage Bonus:                          990.65
+Gold Per Minute:                       427.38
+Crowd Control Time Multiplier:         0.66
+Structure Kills:                       300.00
+Warding/Counterwarding:                120.00
+Medic Bonus:                           9.10
+Map Bonus:                             1000.0
+Victory! :                             10% bonus!
+Game Stat Score =                      6044
+****      Achievement Score      ****
+Killing Sprees:                        100.0
+Achievement Score =                    100.0
+---------------------------------------------------
+Game SCore:                            6144.0
+---------------------------------------------------
+You played Vayne on Summoner's Rift, fighting for Demacia
+Your comrades were: Brand, Garen, Thresh, Evelynn.
+Your enemies were: Singed, Yasuo, MonkeyKing, Jinx, Sona.
+
+****      Game Stat Score      ****
+Kill/Death/Assist Ratio Multiplier:    0.50
+Damage Bonus:                          787.94
+Gold Per Minute:                       442.62
+Crowd Control Time Multiplier:         0.12
+Structure Kills:                       400.00
+Warding/Counterwarding:                160.00
+Medic Bonus:                           17.48
+Map Bonus:                             1000.0
+Victory! :                             10% bonus!
+Game Stat Score =                      5004
+****      Achievement Score      ****
+Double Trouble:                        50.0
+Killing Sprees:                        100.0
+Achievement Score =                    150.0
+---------------------------------------------------
+Game SCore:                            5154.0
+---------------------------------------------------
+You played Jayce on Summoner's Rift, fighting for Demacia
+Your comrades were: Morgana, Talon, MissFortune, Sona.
+Your enemies were: Janna, Tristana, Yasuo, Mordekaiser, DrMundo.
+
+****      Game Stat Score      ****
+Kill/Death/Assist Ratio Multiplier:    0.16
+Damage Bonus:                          1259.28
+Gold Per Minute:                       377.40
+Crowd Control Time Multiplier:         0.24
+Structure Kills:                       300.00
+Warding/Counterwarding:                160.00
+Medic Bonus:                           11.05
+Map Bonus:                             1000.0
+Game Stat Score =                      4351
+****      Achievement Score      ****
+LET'S GO SHOPPPINGGGGGG! :             132.58
+Killing Sprees:                        150.0
+Achievement Score =                    282.58
+---------------------------------------------------
+Game SCore:                            4633.58
+---------------------------------------------------
+You played Zyra on Summoner's Rift, fighting for Chaos
+Your comrades were: Teemo, Jinx, LeeSin, Velkoz.
+Your enemies were: Nidalee, Ryze, Jinx, MonkeyKing, Thresh.
+
+****      Game Stat Score      ****
+Kill/Death/Assist Ratio Multiplier:    0.19
+Damage Bonus:                          218.42
+Gold Per Minute:                       299.34
+Crowd Control Time Multiplier:         0.54
+Structure Kills:                       100.00
+Warding/Counterwarding:                640.00
+Medic Bonus:                           31.90
+Map Bonus:                             1000.0
+Game Stat Score =                      3961
+****      Achievement Score      ****
+LET'S GO SHOPPPINGGGGGG! :             106.14
+Killing Sprees:                        50.0
+Achievement Score =                    156.14
+---------------------------------------------------
+Game SCore:                            4117.14
+---------------------------------------------------
+You played Morgana on Summoner's Rift, fighting for Chaos
+Your comrades were: Sion, Jinx, Ryze, Yasuo.
+Your enemies were: Akali, Graves, Shyvana, Talon, Rengar.
+
+****      Game Stat Score      ****
+Kill/Death/Assist Ratio Multiplier:    0.31
+Damage Bonus:                          372.27
+Gold Per Minute:                       383.28
+Crowd Control Time Multiplier:         1.74
+Structure Kills:                       300.00
+Warding/Counterwarding:                680.00
+Medic Bonus:                           7.97
+Map Bonus:                             1000.0
+Victory! :                             10% bonus!
+Game Stat Score =                      9205
+****      Achievement Score      ****
+Killing Sprees:                        100.0
+Achievement Score =                    100.0
+---------------------------------------------------
+Game SCore:                            9305.0
+---------------------------------------------------
+You played Morgana on Summoner's Rift, fighting for Chaos
+Your comrades were: Jinx, Lux, Volibear, Gangplank.
+Your enemies were: Ashe, Vi, Nidalee, Nasus, Vayne.
+
+****      Game Stat Score      ****
+Kill/Death/Assist Ratio Multiplier:    0.20
+Damage Bonus:                          56.45
+Gold Per Minute:                       283.98
+Crowd Control Time Multiplier:         0.72
+Structure Kills:                       0.00
+Warding/Counterwarding:                640.00
+Medic Bonus:                           0.40
+Map Bonus:                             1000.0
+Game Stat Score =                      3803
+****      Achievement Score      ****
+Double Trouble:                        50.0
+Killing Sprees:                        50.0
+Achievement Score =                    100.0
+---------------------------------------------------
+Game SCore:                            3903.0
+---------------------------------------------------
+
+Your total scores are - 
+Demacia: 13358 (25.8%)
+Noxus: 5931 (11.5%)
+Chaos: 30045 (58.1%)
+Balance: 2421 (4.7%)
+Overall score: 51755

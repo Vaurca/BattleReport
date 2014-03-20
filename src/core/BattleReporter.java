@@ -55,6 +55,7 @@ public class BattleReporter {
 
   /**
    * Creates the report itself
+   * @return String location of where the file is
    */
   protected String createReport() {
     final long id = lol.getSummoner(summonerName).getId();
@@ -74,6 +75,7 @@ public class BattleReporter {
 
       // Process the actual game
       final double gameScore = processGame(game);
+      printOut("Game Score:                            " +            gameScore);
 
       // Add the score from that game to the faction
       SCORE_MAP.put(faction, (int) (SCORE_MAP.get(faction) + gameScore));

@@ -7,7 +7,10 @@ import jriot.main.JRiot;
 import jriot.objects.Game;
 import jriot.objects.RawStats;
 
-
+/**
+ * Processes 'achievement' style stats and prints them out.
+ * @author Justin Chan
+ */
 public class AchievementProcessor extends Processor {
 
   private static final String DIVIDER = "---------------------------------------------------";
@@ -49,42 +52,42 @@ public class AchievementProcessor extends Processor {
 
     if (shoppingSpree < stats.getGoldSpent() / 100) {
       totalScore += shoppingSpree;
-      printOut("LET'S GO SHOPPPINGGGGGG! :              "+shoppingSpree);
+      printOut("LET'S GO SHOPPPINGGGGGG! :             "+shoppingSpree);
     }
     if (firstBlood > 0) {
-      printOut("First Blood! :                          "+firstBlood);
+      printOut("First Blood! :                         "+firstBlood);
     }
     if (doubleKills > 0) {
-      printOut("Double Trouble:                         "+doubleKills);
+      printOut("Double Trouble:                        "+doubleKills);
     }
     if (tripleKills > 0) {
-      printOut("3-pointer! :                            "+tripleKills);
+      printOut("3-pointer! :                           "+tripleKills);
     }
     if (quadraKills > 0) {
-      printOut("Four-rocious:                           "+quadraKills);
+      printOut("Four-rocious:                          "+quadraKills);
     }
     if (pentaKills > 0 ) {
-      printOut("Five Finger Death Punch:                "+pentaKills);
+      printOut("Five Finger Death Punch:               "+pentaKills);
     }
     if (unrealKills > 0) {
-      printOut("I'm Kind Of A Big Deal:                 "+unrealKills);
+      printOut("I'm Kind Of A Big Deal:                "+unrealKills);
     }
     if (killingSprees > 0) {
-      printOut("Killing Sprees:                         "+killingSprees);
+      printOut("Killing Sprees:                        "+killingSprees);
     }
     if (tonOfDamage > 0) {
-      printOut("Ton Of Damage:                          "+tonOfDamage);
+      printOut("Ton Of Damage:                         "+tonOfDamage);
     }
     if (unluckyThirteen > 0) {
-      printOut("Unlucky Thirteen:                       "+unluckyThirteen);
+      printOut("Unlucky Thirteen:                      "+unluckyThirteen);
     }
     if (fourTwenty > 0) {
-      printOut("Chilled Out:                            "+fourTwenty);
+      printOut("Chilled Out:                           "+fourTwenty);
     }
     if (cool > 0) {
-      printOut("Truly Cool:                             "+cool);
+      printOut("Truly Cool:                            "+cool);
     }
-    printOut("Achievement Score =                     "+val(totalScore).setScale(2, RoundingMode.HALF_EVEN).doubleValue());
+    printOut("Achievement Score =                    "+val(totalScore).setScale(2, RoundingMode.HALF_EVEN).doubleValue());
     printOut(DIVIDER);
     return val(totalScore);
   }

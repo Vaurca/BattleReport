@@ -10,7 +10,10 @@ import jriot.objects.Game;
 import jriot.objects.Player;
 import jriot.objects.RawStats;
 
-
+/**
+ * Interprets the basic game stats of a game, then prints them out.
+ * @author Justin Chan
+ */
 public class BasicProcessor extends Processor {
 
   private String playerChampion;
