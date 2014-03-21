@@ -52,9 +52,9 @@ Noxus, then you want to execute Demacians. Having a numerical, comparable value 
 KDA or GPM lets people compete against each other on another axis.
 
 Examining stats also lets us play with the idea of achievements - achievements can mean quite a lot to people in
-other games. They've been widely implement and while not everyone spends a huge deal of time trying to grind them out, certain subsets of the population spend a great deal of time amassing them and it provides more stuff to do when you're bored of just the standard slog. They're a nice thing to pick up on the side, and boast to your friends. 
+other games. They've been widely implemented and while not everyone specifically tries to grind them out, certain subsets of the population spend a great deal of time amassing them. It provides more more challenges when you want something beyond just the standard game, and they're a nice thing to pick up on the side to boast to your friends. 
 
-The league system allowed this to an extent with things like borders, icons, wards, and skins. Event icons for completing certain tasks follow that path too. Expanding this to normal play makes pulling off something awesome that much more sweet - like scoring a certain number of pentakills, or being a master Master Yi - without having to wait 'till the end of a season. It also lets more casual players have more goals to work for, without forcing anyone to have to participate.
+The league system allowed this to an extent with things like borders, icons, wards, and skins. Event icons for completing certain tasks follow that path too. Expanding this to normal play makes pulling off something awesome that much more memorable - like scoring a certain number of pentakills, or being a master Master Yi - without having to wait 'till the end of a season. It also lets more casual players have more goals to work for, without forcing anyone to have to participate.
 
 iv. 	Weaknesses
 
