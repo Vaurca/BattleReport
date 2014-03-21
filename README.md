@@ -49,7 +49,7 @@ and compete against themselves. Fluff naturally ties this all together - making 
 more clear provides an added non-mechanical benefit for people who like a certain faction, and encourages them
 to play against other factions. Similar to how there's a preference to dive Jinx if you're Vi, if you know you're
 Noxus, then you want to execute Demacians. Having a numerical, comparable value of stats rather than just straight
-KDA or GPM lets people compete against each other on another axis, as well as on a faction-based score.
+KDA or GPM lets people compete against each other on another axis.
 
 Examining stats also lets us play with the idea of achievements - achievements can mean quite a lot to people in
 other games. They've been widely implement and while not everyone spends a huge deal of time trying to grind them out, certain subsets of the population spend a great deal of time amassing them and it provides more stuff to do when you're bored of just the standard slog. They're a nice thing to pick up on the side, and boast to your friends. 
