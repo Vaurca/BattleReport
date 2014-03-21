@@ -34,10 +34,13 @@ I had a few basic thoughts that I put together -
 
 1 - At the core of almost any game is a comparison between two numbers. Comparing numbers competitively with 
 others is fun. (Competition!)
+
 2 - Outside of direct competition, numbers are boring unless there's a system to compete against themselves.
 (Achievements!)
+
 3 - Humans love to be part of a group, and like supporting their group against other groups. (Teamwork + 
 Competition!)
+
 4 - League has a lot of fluff that's pretty sweet, but we never really touch on it other than little hidden
 VOs or buffs.
 
